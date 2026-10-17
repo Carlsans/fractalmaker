@@ -1,0 +1,32 @@
+# environments and caches
+venv/
+.venv/
+__pycache__/
+.idea/
+.stfolder/
+.stignore
+# unrelated experiments and anything holding credentials
+sources/phonescrapper/
+sources/testdiffusion.py
+sources/stablediffusiontraining/
+# build output of the C++ extension, archives, binaries
+sources/ctopython/**/build/
+sources/ctopython/**/Debug/
+sources/ctopython/**/x64/
+*.7z
+*.pyd
+*.so
+*.pt
+*.png
+*.gif
+# Visual Studio caches and build products
+.vs/
+*.ipch
+*.obj
+*.pdb
+*.idb
+*.suo
+*.lock
+*.egg-info/
+sources/ctopython/**/test/
+*.vcxproj.user

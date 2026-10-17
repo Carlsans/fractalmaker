@@ -1,0 +1,3 @@
+class FractalIteration:
+    def __init__(self):
+        ...
